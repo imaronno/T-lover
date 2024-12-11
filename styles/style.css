@@ -5,6 +5,10 @@
   transform: translate(-50%, -50%);
 }
 
-.about-sec{
+.abo{
     margin: 5%;
+}
+
+.back{
+  background-image: url(imges/the-cover.jpg);
 }
