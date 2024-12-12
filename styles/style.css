@@ -92,11 +92,11 @@
     content: '\f09a'; /* Font Awesome facebook icon code */
   }
   
-  .playwrite-tz-guides-regular {
+  body {
     font-family: "Playwrite TZ Guides", cursive;
     font-weight: 400;
     font-style: normal;
   }
-  
+
 
   
