@@ -25,3 +25,71 @@
   width:100%;
   position:absolute;
   }
+
+  footer {
+    background-color: #1f1f1f;
+    padding: 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ccc;
+    font-family: Arial, sans-serif;
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .left-section i {
+    margin-right: 10px;
+  }
+  
+  .right-section {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .right-section a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .right-section a:hover {
+    color: #fff;
+  }
+  
+  footer i.icon-company {
+    /* Add your company icon (like SVG or Font Awesome class) */
+    background-image: url('your-company-icon.svg');
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-size: cover;
+  }
+  
+  footer i.icon-twitter,
+  footer i.icon-instagram,
+  footer i.icon-facebook {
+    /* These would be your social media icons. If using Font Awesome: */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+  }
+  
+  footer i.icon-twitter:before {
+    content: '\f099'; /* Font Awesome twitter icon code */
+  }
+  
+  footer i.icon-instagram:before {
+    content: '\f16d'; /* Font Awesome instagram icon code */
+  }
+  
+  footer i.icon-facebook:before {
+    content: '\f09a'; /* Font Awesome facebook icon code */
+  }
+  
+  
