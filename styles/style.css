@@ -64,7 +64,6 @@
   }
   
   footer i.icon-company {
-    /* Add your company icon (like SVG or Font Awesome class) */
     background-image: url('your-company-icon.svg');
     width: 24px;
     height: 24px;
@@ -75,22 +74,10 @@
   footer i.icon-twitter,
   footer i.icon-instagram,
   footer i.icon-facebook {
-    /* These would be your social media icons. If using Font Awesome: */
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
   }
-  
-  footer i.icon-twitter:before {
-    content: '\f099'; /* Font Awesome twitter icon code */
-  }
-  
-  footer i.icon-instagram:before {
-    content: '\f16d'; /* Font Awesome instagram icon code */
-  }
-  
-  footer i.icon-facebook:before {
-    content: '\f09a'; /* Font Awesome facebook icon code */
-  }
+
   
   body {
     font-family: "Playwrite TZ Guides", cursive;
