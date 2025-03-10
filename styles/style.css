@@ -95,3 +95,45 @@ body {
 .body {
   font-weight: bolder;
 }
+
+.reels-for-mobile {
+  display: none;
+}
+
+@media only screen and (max-width:688px) {
+  #reels {
+    display: none;
+  }
+
+  .reels-for-mobile {
+    display: list-item;
+  }
+
+  .vlog-1 {
+    width: 130%;
+
+
+  }
+
+  .reel-fm {
+    width: 0%;
+    padding-left: 1%;
+  }
+
+  .contact {
+    display: none;
+  }
+
+
+  .kaku {
+    margin-left: -20%;
+  }
+
+  .imges-of-t {
+    display: none;
+  }
+
+  .abbar-name-person {
+    display: list-item;
+  }
+}
