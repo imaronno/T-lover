@@ -96,13 +96,26 @@ body {
   font-weight: bolder;
 }
 
-.reels-for-mobile {
+.contact-fm {
   display: none;
 }
 
-@media only screen and (max-width:688px) {
-  #reels {
-    display: none;
+@media only screen and (max-width:688px)
+/* This Is For Mobile. */
+  {
+
+    .email-c , .name-c {
+    width: 100%;
+    }
+
+  .contact-fm {
+    display: list-item;
+    padding: 20%;
+    margin-right:  35%;
+  }
+
+  .reel {
+    width: 100%;
   }
 
   .reels-for-mobile {
@@ -110,14 +123,14 @@ body {
   }
 
   .vlog-1 {
-    width: 130%;
+    width: 120%;
 
 
   }
 
   .reel-fm {
     width: 0%;
-    padding-left: 1%;
+    padding-left: -1%;
   }
 
   .contact {
@@ -129,11 +142,16 @@ body {
     margin-left: -20%;
   }
 
-  .imges-of-t {
-    display: none;
+  #reels {
+    padding-right: 5%;
   }
 
-  .abbar-name-person {
-    display: list-item;
+  .img-ot {
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
   }
+
+
+
 }
