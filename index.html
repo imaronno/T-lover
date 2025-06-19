@@ -304,16 +304,17 @@
       <div>
         <form>
           <div class="mb-3 content-1">
-            <label for="name" class="form-label name-c">Name</label>
+            <label for="name" class="form-label name-c full-name">Name</label>
             <input type="text" class="form-control email-c" id="name">
-            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <label for="exampleInputEmail1" class="form-label email-address">Email address</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
           </div>
-          <div>
-            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="width: 200%;"></textarea>
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">Comments</label>
           </div>
+
         </form>
       </div>
     </div>
